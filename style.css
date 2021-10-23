@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rubik:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 50px 0;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 90%;
+    margin-left:60px;
+}
+.dream-area .half-width img{
+    width: 80%;
+}
+.dream-area .half-width h1{
+    margin-top: 100px;
+}
+h1{
+    font-size: 50px;
+    line-height: 80px;
+}
+.highlight{
+    color: rgb(245, 125, 145);
+    font-weight: 700;
+}
+h3{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+p{
+    color: gray;
+}
+.gradient-button{
+    background-image: linear-gradient(45deg, lightSalmon, rgb(250, 78, 107));
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.gradient-button a{
+    text-decoration: none;
+    color: white;
+}
+.dream-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: right;
+}
+.work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: left;
+    margin-bottom: 150px;
+}
+.sec-name{
+    position: relative;
+    margin: auto;
+    width: fit-content;
+    height: 85px;
+    margin-bottom: 70px;
+}
+.underline::before{
+    content: "";
+    height: 10px;
+    width: 365px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 15px 0;
+}
+footer span{
+    font-size: 12px;
+    color: rgb(36, 35, 35);
+}
+.work-part{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+.one-third{
+    float: left;
+    width: 30%;
+    margin: 0 1.5%;
+}
+.one-third img{
+    width: 100%;
+}
+.feedback{
+    text-align: center;
+}
+.feedback h1{
+    font-size: 40px;
+    color: rgb(37, 37, 37);
+    margin-bottom: 45px;
+}
+.feedback h3{
+    margin-bottom: 15px;
+}
+.feedback p{
+    font-size: small;
+    margin-bottom: 25px;
+}
+.quote{
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+.pinkBox{
+    background-image: linear-gradient(45deg, lightSalmon, rgb(250, 78, 107));
+    width: 600px;
+    height: 125px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 100px;
+}
+.pinkBox span{
+    font-size: small
+}
+.pinkBox h3{
+    margin-top: 20px;
+}
